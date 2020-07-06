@@ -61,7 +61,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "wagtail>=1.4.0",
+        "wagtail @ git+https://github.com/dablabs/wagtail.git@v2.5.2", #"wagtail>=1.4.0",
         "Django>=1.7.1",
     ],
     cmdclass={
